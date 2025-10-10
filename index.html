@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STRIKE | Coder Army</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ========== NAVIGATION SECTION ========== -->
+    <nav id="navbar">
+        <div class="container nav-container">
+            <!-- Logo Section -->
+            <div style="color:rgba(255, 228, 26, 0.926); font-size: 24px; font-family: 'Segoe UI'; font-weight: 700; display: flex; justify-content: center; align-items:center;">
+                <a href="#home" style="margin-top: 1px;">
+                    <!-- STRIKE Logo Image -->
+                    <img src="images/strike/strike-img.png" alt="STRIKE" class="logo" width="120px" height="48px">
+                </a>
+            </div>
+            
+            <!-- Mobile Menu Toggle (CSS-only hamburger menu) -->
+            <input type="checkbox" id="mobile-menu-toggle" class="mobile-checkbox">
+            <label for="mobile-menu-toggle" class="menu-toggle" id="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </label>
+            
+            <!-- Navigation Links -->
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link">HOME</a></li>
+                <li><a href="#about" class="nav-link">ABOUT</a></li>
+                <li><a href="#courses" class="nav-link">COURSE</a></li>
+                <li><a href="#mentors" class="nav-link">MENTORS</a></li>
+                <li><a href="#contact" class="nav-link">CONTACT</a></li>
+                
+                <!-- Mobile Menu Close Button -->
+                <li class="mobile-close">
+                    <label for="mobile-menu-toggle" class="close-menu">
+                        <i class="fas fa-times"></i> Close
+                    </label>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- ========== HERO SECTION ========== -->
+    <section class="hero" id="home">
+        <!-- Video Background Container -->
+        <div class="video-background">
+            <video autoplay muted loop playsinline id="heroVideo">
+                <!-- Video sources (commented out for now) -->
+                <source src="images/strike/lv_0_20251010145600.mp4" type="video/mp4">
+                <!-- Fallback image if video doesn't load -->
+                <img src="https://images.unsplash.com/photo-1635070041078-e363dbe005cb?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="Fallback Background">
+            </video>
+            <!-- Dark overlay for better text readability -->
+            <div class="video-overlay"></div>
+        </div>
+
+        <!-- Hero Content -->
+        <div class="container hero-content">
+            <h2>CoderArmy Presents</h2>
+            <h1 class="hero-title">STRIKE</h1>
+            <p class="hero-subtitle">A better approach to learn with first-thought principle.</p>
+            <!-- Call-to-Action Button -->
+            <a href="#courses" class="btn hero-btn">Explore <b style="font-size: 14px;">STRIKE</b></a>
+        </div>
+        
+        <!-- Scroll Indicator Animation -->
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- ========== ABOUT SECTION ========== -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2>About STRIKE</h2>
+            <div class="about-content">
+                <!-- Text Content -->
+                <div class="about-text">
+                    <p>STRIKE is an innovative <b style="color: rgba(255, 207, 32, 0.957);">Live YouTube Course</b> designed to bridge the gap between fundamental computer science concepts and emerging technologies. Our mission is to equip developers with the skills needed to excel in today's competitive tech landscape.</p>
+                    <p>We combine rigorous DSA training with hands-on Generative AI projects, ensuring our students not only ace technical interviews but also solve problems with first-thought principle approach.</p>
+                    <p>Our instructors are industry professionals with years of experience at top tech companies, bringing real-world insights directly to your learning journey.</p>
+                    <a href="#contact" class="btn" style="font-weight: 700;">Get Started</a>
+                </div>
+                <!-- Image Content -->
+                <div class="about-image">
+                    <div class="image-container">
+                        <img src="images/strike/1.jpg" alt="STRIKE">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== COURSES SECTION ========== -->
+    <section class="courses" id="courses">
+        <div class="container">
+            <h2>STRIKE Includes</h2>
+            
+            <!-- Main Courses Grid -->
+            <div class="courses-grid">
+                <!-- Course 1: DSA -->
+                <div class="course-card">
+                    <div class="course-image">
+                        <div class="image-overlay"></div>
+                        <img src="images/strike/courses/dsa.png" alt="DSA Course">
+                    </div>
+                    <div class="course-content">
+                        <h3>Data Structures & Algorithms</h3>
+                        <p>Master the fundamental building blocks of computer science with our comprehensive DSA course.</p>
+                        <ul class="features">
+                            <li>Live interactive classes</li>
+                            <li>500+ practice problems</li>
+                            <li>Personalized mentorship</li>
+                            <li>Interview preparation</li>
+                            <li>Real-world project integration</li>
+                        </ul>
+                        <a href="#contact" class="btn course-btn">Enroll Now @ ₹2499</a>
+                    </div>
+                </div>
+                
+                <!-- Course 2: Generative AI -->
+                <div class="course-card">
+                    <div class="course-image">
+                        <div class="image-overlay"></div>
+                        <img src="images/strike/courses/genai.jpg" alt="GenAI Course">
+                    </div>
+                    <div class="course-content">
+                        <h3>Generative AI Mastery</h3>
+                        <p>Dive into the world of Generative AI and learn to build intelligent applications that create content.</p>
+                        <ul class="features">
+                            <li>Hands-on AI projects</li>
+                            <li>LLM implementation</li>
+                            <li>Image generation techniques</li>
+                            <li>Model fine-tuning</li>
+                            <li>Deployment strategies</li>
+                        </ul>
+                        <a href="#contact" class="btn course-btn">Enroll Now @ ₹1999</a>
+                    </div>
+                </div>
+                
+                <!-- Course 3: Combo Package -->
+                <div class="course-card">
+                    <div class="course-image">
+                        <div class="image-overlay"></div>
+                        <img src="images/strike/courses/bundle.jpg" alt="Combo Course">
+                    </div>
+                    <div class="course-content">
+                        <h3>DSA + GenAI Combo</h3>
+                        <p>The complete package: Master DSA fundamentals while building advanced Generative AI applications.</p>
+                        <ul class="features">
+                            <li>Both courses at discounted price</li>
+                            <li>Integrated learning path</li>
+                            <li>Career guidance sessions</li>
+                            <li>Portfolio development</li>
+                            <li>Job placement assistance</li>
+                        </ul>
+                        <a href="#contact" class="btn course-btn">Enroll Now @ ₹3599</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ========== OTHER COURSES SECTION ========== -->
+            <div class="other-courses-section">
+                <h3 class="other-courses-title">Other Courses Offered</h3>
+                <div class="other-courses-grid">
+                    <!-- Course 1: NEXUS - FSD & DSA -->
+                    <div class="other-course-card">
+                        <div class="course-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <div class="course-details">
+                            <h4>NEXUS - FSD & DSA</h4>
+                            <p>Build modern web applications with MERN stack</p>
+                            <div class="course-features">
+                                <span class="feature-tag">FSD</span>
+                                <span class="feature-tag">DSA</span>
+                                <span class="feature-tag">Projects</span>
+                            </div>
+                            <div class="course-price">
+                                <span class="price">₹3599</span>
+                                <span class="duration">6 Months</span>
+                            </div>
+                        </div>
+                        <!-- Hover Content (Reveals on hover) -->
+                        <div class="course-hover-content">
+                            <h4>What You'll Learn</h4>
+                            <ul>
+                                <li>Frontend with React & Redux</li>
+                                <li>Backend with Node.js & Express</li>
+                                <li>Database design with MongoDB</li>
+                                <li>Deployment & DevOps</li>
+                            </ul>
+                            <a href="#contact" class="btn-enroll">Enroll Now</a>
+                        </div>
+                    </div>
+
+                    <!-- Course 2: NEXUS+ Course -->
+                    <div class="other-course-card">
+                        <div class="course-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <div class="course-details">
+                            <h4>NEXUS+ Course</h4>
+                            <p>Full Stack, DSA, Blockchain</p>
+                            <div class="course-features">
+                                <span class="feature-tag">FSD</span>
+                                <span class="feature-tag">DSA</span>
+                                <span class="feature-tag">Blockchain</span>
+                            </div>
+                            <div class="course-price">
+                                <span class="price">₹4799</span>
+                                <span class="duration">8 Months</span>
+                            </div>
+                        </div>
+                        <div class="course-hover-content">
+                            <h4>What You'll Learn</h4>
+                            <ul>
+                                <li>State management</li>
+                                <li>Frontend with React & Redux</li>
+                                <li>Database design with MongoDB</li>
+                                <li>Backend integration</li>
+                            </ul>
+                            <a href="#contact" class="btn-enroll">Enroll Now</a>
+                        </div>
+                    </div>
+
+                    <!-- Course 3: Defense Course (FREE) -->
+                    <div class="other-course-card">
+                        <div class="course-icon">
+                            <i class="fas fa-chevron-up"></i>
+                        </div>
+                        <div class="course-details">
+                            <h4>Defense Course (FREE)</h4>
+                            <p>MERN Stack Development</p>
+                            <div class="course-features">
+                                <span class="feature-tag">Frontend</span>
+                                <span class="feature-tag">Backend</span>
+                                <span class="feature-tag">Database</span>
+                            </div>
+                            <div class="course-price">
+                                <span class="price">₹0</span>
+                                <span class="duration">12 Months</span>
+                            </div>
+                        </div>
+                        <div class="course-hover-content">
+                            <h4>What You'll Learn</h4>
+                            <ul>
+                                <li>Frontend- HTML, CSS, JS, React</li>
+                                <li>Backend- Node.js, Express</li>
+                                <li>Containerization with Docker</li>
+                                <li>Database & Deployment</li>
+                            </ul>
+                            <a href="#contact" class="btn-enroll">Enroll Now</a>
+                        </div>
+                    </div>
+
+                    <!-- Course 4: Introduction to GenAI (FREE) -->
+                    <div class="other-course-card">
+                        <div class="course-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div class="course-details">
+                            <h4>Introduction to GenAI (FREE)</h4>
+                            <p>Machine Learning and Generative AI</p>
+                            <div class="course-features">
+                                <span class="feature-tag">GenAI</span>
+                                <span class="feature-tag">JavaScript</span>
+                                <span class="feature-tag">ML Basics</span>
+                            </div>
+                            <div class="course-price">
+                                <span class="price">₹0</span>
+                                <span class="duration">4 Weeks</span>
+                            </div>
+                        </div>
+                        <div class="course-hover-content">
+                            <h4>What You'll Learn</h4>
+                            <ul>
+                                <li>GenAI Basics</li>
+                                <li>Data visualization</li>
+                                <li>Statistical modeling</li>
+                                <li>Machine learning algorithms</li>
+                            </ul>
+                            <a href="#contact" class="btn-enroll">Enroll Now</a>
+                        </div>
+                    </div>
+
+                    <!-- Course 5: Cyber Security -->
+                    <div class="other-course-card">
+                        <div class="course-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <div class="course-details">
+                            <h4>Cyber Security Essentials</h4>
+                            <p>Learn ethical hacking and security fundamentals</p>
+                            <div class="course-features">
+                                <span class="feature-tag">Ethical Hacking</span>
+                                <span class="feature-tag">Network Security</span>
+                                <span class="feature-tag">Cryptography</span>
+                            </div>
+                            <div class="course-price">
+                                <span class="price">₹1999</span>
+                                <span class="duration">8 Weeks</span>
+                            </div>
+                        </div>
+                        <div class="course-hover-content">
+                            <h4>What You'll Learn</h4>
+                            <ul>
+                                <li>Network security principles</li>
+                                <li>Vulnerability assessment</li>
+                                <li>Cryptography basics</li>
+                                <li>Security best practices</li>
+                            </ul>
+                            <a href="#contact" class="btn-enroll">Enroll Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== MENTORS SECTION ========== -->
+    <section class="mentors" id="mentors">
+        <div class="container">
+            <h2>Know Your <span style="color: #ffd700;">Mentors</span></h2>
+            <div class="mentors-grid">
+                <!-- Mentor 1: Rohit Negi -->
+                <div class="mentor-card">
+                    <div class="mentor-image">
+                        <img src="images/Negi-Da/3.jpg" alt="Negi Da">
+                        <!-- Initial info shown by default -->
+                        <div class="mentor-initial-info">
+                            <h3>Negi Da</h3>
+                            <p class="mentor-initial-role">DSA & GenAI Expert</p>
+                        </div>
+                        <!-- Detailed content revealed on hover -->
+                        <div class="mentor-content">
+                            <h3>Rohit Negi</h3>
+                            <p class="mentor-role">DSA & GenAI Expert</p>
+                            <div class="mentor-info">
+                                <p>8+ years of experience in training students for top tech companies</p>
+                                <ul class="achievements">
+                                    <li>Ex-Uber & Google Interviewer</li>
+                                    <li>10k+ Students Trained</li>
+                                    <li>Specialist in Algorithm Design</li>
+                                    <li>Master in Full Stack Development</li>
+                                </ul>
+                            </div>
+                            <div class="social-links">
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-github"></i></a>
+                            </div>
+                            <a href="#contact" class="btn mentor-btn">Learn Now</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Mentor 2: Aditya Tandon -->
+                <div class="mentor-card">
+                    <div class="mentor-image">
+                        <img src="images/tandon-ji/1.jpg" alt="Aditya Tandon">
+                        <div class="mentor-initial-info">
+                            <h3>Aditya Tandon</h3>
+                            <p class="mentor-initial-role">Generative AI & HLD Specialist</p>
+                        </div>
+                        <div class="mentor-content">
+                            <h3>Aditya Tandon</h3>
+                            <p class="mentor-role">Generative AI & HLD Specialist</p>
+                            <div class="mentor-info">
+                                <p>Leading System Design with practical industry applications</p>
+                                <ul class="achievements">
+                                    <li>PhD in Machine Learning</li>
+                                    <li>Published 20+ Research Papers</li>
+                                    <li>HLD Consultant for Fortune 500</li>
+                                    <li>Expert in LLM Fine-tuning</li>
+                                </ul>
+                            </div>
+                            <div class="social-links">
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-github"></i></a>
+                            </div>
+                            <a href="#contact" class="btn mentor-btn">Learn Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== CONTACT SECTION ========== -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2>Get In <span style="color: #ffd700;">Touch</span></h2>
+            <div class="contact-container">
+                <!-- Contact Information -->
+                <div class="contact-info">
+                    <h3>Start Your Learning Journey</h3>
+                    <p>Have questions about our courses? Ready to enroll? Reach out to us and our team will guide you through the process.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>contact@strike.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+91-93547-62687</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Kotdwar, Uttarakhand- 246123</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Social Media Links -->
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Contact Form -->
+                <div class="contact-form">
+                    <form id="contactForm" action="#" method="POST" novalidate>
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" class="form-control" placeholder="Enter Name" required>
+                            <span class="error-message">Please enter your name</span>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" class="form-control" placeholder="Enter Email" required>
+                            <span class="error-message">Please enter a valid email</span>
+                        </div>
+                        <div class="form-group">
+                            <label for="course">Course Preference *</label>
+                            <select id="course" name="course" class="form-control">
+                                <option value="">Select a course</option>
+                                <option value="dsa">Data Structures & Algorithms</option>
+                                <option value="genai">Generative AI Mastery</option>
+                                <option value="combo">DSA + GenAI Combo</option>
+                            </select>
+                            <span class="error-message">Please select a course</span>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" class="form-control" placeholder="Your message or questions..." required></textarea>
+                            <span class="error-message">Please enter your message</span>
+                        </div>
+                        <button type="submit" class="btn" style="font-weight: 800; font-size: 12px;">Get Enquiry</button>
+                        
+                        <!-- Success Message (Hidden by default) -->
+                        <div class="form-success" id="formSuccess">
+                            <p>Thank you for your interest! We will contact you soon.</p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FOOTER SECTION ========== -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <!-- About Section -->
+                <div class="footer-about">
+                    <div class="footer-logo">STRIKE - 
+                        <a href="https://coderarmy.in/?section=home#home" style="text-decoration: none; color: #ffd700;">Coder Army&#174;</a></div>
+                    <p>STRIKE is dedicated to providing high-quality, live coding education that combines DSA and Generative AI knowledge with deep learning and first-thought principle approach.</p>
+                </div>
+                
+                <!-- Quick Links -->
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#courses">Courses</a></li>
+                        <li><a href="#mentors">Mentors</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Social Media Links -->
+                <div class="footer-social">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="https://x.com/rohit_negi9"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/rohit-negi9/"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/coderarmy-notes"><i class="fab fa-github"></i></a>
+                        <a href="https://www.youtube.com/@CoderArmy9"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Copyright Notice -->
+            <div class="copyright">
+                &copy; 2025 STRIKE. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <!-- ========== SCROLL TO TOP BUTTON ========== -->
+    <a href="#home" class="scroll-to-top" id="scrollToTop">
+        <i class="fas fa-chevron-up"></i>
+    </a>
+
+</body>
+</html>
