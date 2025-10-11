@@ -1,133 +1,340 @@
-# 🚀 STRIKE – Landing Page (Coder Army)
+STRIKE - Coder Army 🚀
+A modern, responsive educational platform for mastering Data Structures & Algorithms and Generative AI through live, interactive courses.
 
-A modern, responsive, and visually engaging landing page built using **only HTML and CSS** for **STRIKE**, an upcoming live course by **Rohit Negi (Coder Army)**.  
-This project was developed as part of a **hackathon challenge**, showcasing design precision, layout mastery, and advanced CSS techniques — all without a single line of JavaScript.
+https://via.placeholder.com/1200x400/0a0a0a/FFD700?text=STRIKE+-+Coder+Army
 
----
+📋 Table of Contents
+Overview
 
-## 🧠 Project Overview
+Features
 
-**STRIKE** is a landing page designed to promote an upcoming course that combines **Data Structures & Algorithms (DSA)** with **Generative AI (GenAI)**, taught live by **Rohit Negi (Negi Da)**.  
-The page introduces the course modules, mentors, and pricing details while maintaining a high-end aesthetic with animations, hover effects, and a video hero background.
+Tech Stack
 
----
+Project Structure
 
-## 🗂️ Project Structure
+Installation
 
-STRIKE-Landing-Page/
+Usage
+
+Pages Overview
+
+Responsive Design
+
+Color Scheme
+
+Contributing
+
+License
+
+Contact
+
+🎯 Overview
+STRIKE is an innovative educational platform developed by Coder Army, offering cutting-edge courses in Data Structures & Algorithms and Generative AI. The platform provides a comprehensive learning experience with live classes, personalized mentorship, and industry-relevant projects.
+
+Key Highlights:
+
+🎓 Live interactive coding classes
+
+🤖 Generative AI mastery courses
+
+💻 Comprehensive DSA curriculum
+
+👨‍🏫 Industry expert instructors
+
+📱 Fully responsive design
+
+✨ Features
+🎨 Design & UX
+Modern Dark Theme with gold accents
+
+Fully Responsive across all devices
+
+Smooth Animations and transitions
+
+CSS-only Interactions (No JavaScript dependencies)
+
+Professional Typography and spacing
+
+📚 Course Features
+Detailed Course Pages with comprehensive curriculum
+
+Interactive Module System with CSS-only accordions
+
+Multiple Pricing Plans for different learning needs
+
+Instructor Profiles with industry experience
+
+Project-based Learning approach
+
+🔧 Technical Features
+Pure HTML5 & CSS3 implementation
+
+CSS Grid & Flexbox layouts
+
+Mobile-first Responsive Design
+
+Cross-browser Compatibility
+
+Fast Loading and optimized performance
+
+🛠 Tech Stack
+Frontend:
+
+HTML5
+
+CSS3 (with CSS Variables)
+
+Font Awesome Icons
+
+Google Fonts (Segoe UI)
+
+No External Dependencies:
+
+No JavaScript frameworks
+
+No CSS frameworks (Bootstrap, Tailwind, etc.)
+
+Pure vanilla implementation
+
+📁 Project Structure
+text
+STRIKE-CoderArmy/
 │
-├── index.html # Main HTML structure
-├── style.css # Styling and responsive design
-├── images/ # All images, icons, and video background
-│ ├── strike/
-│ ├── tandon-ji/
-│ ├── Negi-Da/
-│ └── ... (course images)
-└── README.md # Project documentation
+├── images/
+│   ├── Negi-Da/
+│   │   ├── 1.jpg
+│   │   ├── 2.jpg
+│   │   └── 3.jpg
+│   ├── strike/
+│   │   ├── strike-img.png
+│   │   ├── 1.jpg
+│   │   └── courses/
+│   │       ├── dsa.png
+│   │       ├── genai.jpg
+│   │       └── bundle.jpg
+│   └── tandon-ji/
+│       └── 1.jpg
+│
+├── index.html              # Main landing page
+├── dsa-course.html         # DSA course details page
+├── genai-course.html       # Generative AI course details page
+├── combo-course.html       # Combo course details page
+├── login.html              # User login page
+├── style.css               # Main stylesheet
+└── README.md               # Project documentation
+🚀 Installation
+Prerequisites
+A modern web browser (Chrome, Firefox, Safari, Edge)
 
+Local web server (optional, for best performance)
 
-## 🌟 Features
+Quick Start
+Clone or Download the project files
 
-- 🎥 **Video Background Hero Section** — immersive first impression with overlay effects  
-- 🧭 **Sticky Navigation Bar** with smooth scrolling  
-- 💡 **Responsive Design** — optimized for desktop, tablet, and mobile  
-- 🎨 **Dynamic Hover Effects** and card animations (pure CSS)  
-- 🧍‍♂️ **Mentor Showcase** with interactive hover reveals  
-- 📚 **Course Details & Pricing** with responsive grids  
-- 📬 **Contact Form (Static)** for inquiries  
-- 🌙 **Modern Dark Theme** with golden accent tones  
+bash
+git clone <repository-url>
+Navigate to the project directory
 
----
+bash
+cd STRIKE-CoderArmy
+Open in your preferred method:
 
-## 🛠️ Technologies Used
+Option A: Direct file opening
 
-| Technology | Purpose |
-|-------------|----------|
-| **HTML5** | Semantic structure and layout |
-| **CSS3** | Styling, animations, responsiveness |
-| **Font Awesome** | Icons and symbols |
-| **Google Fonts / Segoe UI** | Typography |
+Open index.html in your web browser
 
-No JavaScript or frameworks were used in this project.
+Option B: Local server (recommended)
 
----
+bash
+# Using Python
+python -m http.server 8000
 
-## ⚙️ Installation & Setup
+# Using Node.js
+npx serve .
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/your-username/strike-landing-page.git
-Navigate into the project folder
+# Using PHP
+php -S localhost:8000
+Access the website:
 
-cd strike-landing-page
-Open index.html
+Direct file: file:///path/to/index.html
 
-You can open it directly in your browser, or use a local live server (VS Code Live Server recommended).
+Local server: http://localhost:8000
+
+📖 Usage
+Navigation
+Homepage: Main landing with hero section and course overview
+
+Courses: Detailed information about all available courses
+
+Mentors: Instructor profiles and expertise
+
+Contact: Enrollment and inquiry form
+
+Login: User authentication page
+
+Course Exploration
+Browse main courses on the homepage
+
+Click "View Course Details" for comprehensive information
+
+Explore curriculum with interactive modules
+
+Check pricing plans and features
+
+Use "Back to Courses" for easy navigation
+
+📄 Pages Overview
+🏠 index.html - Main Landing Page
+Hero Section: Compelling introduction with video background
+
+About Section: Platform overview and mission
+
+Courses Section: Main and other course offerings
+
+Mentors Section: Expert instructor profiles
+
+Contact Section: Enrollment form and information
+
+Footer: Links and social media
+
+📚 Course Detail Pages
+dsa-course.html
+Comprehensive DSA curriculum
+
+500+ coding problems
+
+Interview preparation focus
+
+Multiple pricing tiers
+
+genai-course.html
+Generative AI mastery program
+
+Hands-on AI projects
+
+LLM implementation techniques
+
+Model deployment strategies
+
+combo-course.html
+Combined DSA + GenAI package
+
+Integrated learning path
+
+Special discounted pricing
+
+Career-focused approach
+
+🔐 login.html
+Clean authentication interface
+
+Social login options
+
+Responsive form design
+
+Consistent theme integration
 
 📱 Responsive Design
-The page layout adapts fluidly to:
+The website is optimized for all devices:
 
-Desktop (1200px+)
+Breakpoints:
+Large Desktop: 1440px+
 
-Tablet (768px – 1024px)
+Desktop: 1200px - 1439px
 
-Mobile (≤ 768px)
+Small Desktop: 1024px - 1199px
 
-Media queries and flexible grid systems ensure consistent readability and design quality across all screens.
+Tablet Landscape: 768px - 1023px
 
-🧩 Sections Overview
-Section	Description
-Navbar	Fixed navigation with mobile hamburger toggle
-Hero	Full-screen video header with CTA button
-About	Overview of the STRIKE course and goals
-Courses	DSA, GenAI, and Combo course cards with pricing
-Other Courses	Preview of additional Coder Army offerings
-Mentors	Profiles of Rohit Negi & Aditya Tandon
-Contact	Static inquiry form and social media links
-Footer	Copyright and quick links
+Tablet Portrait: 600px - 767px
 
-🧠 Design Highlights
-Custom CSS variables for consistent theming (--accent, --primary-bg, etc.)
+Mobile Landscape: 480px - 599px
 
-Keyframe animations: fadeUp, slideDown, pulse, bounce
+Mobile Portrait: 360px - 479px
 
-Clean and modular CSS organization
+Small Mobile: 320px - 359px
 
-Accessibility-friendly color contrast and text hierarchy
+Features:
+Mobile-first approach
 
-Scroll-to-top button implemented with pure CSS (no JS)
+Flexible grid systems
 
-🧪 How to Customize
-You can easily modify this landing page for your own project:
+Adaptive typography
 
-Replace images in /images/
+Touch-friendly interfaces
 
-Update text content in index.html
+Optimized images and media
 
-Adjust colors in :root variables inside style.css
+🎨 Color Scheme
+The design uses a professional dark theme with strategic accent colors:
 
-Change font or theme by editing the CSS variables and font imports
+css
+:root {
+    --primary-bg: #0a0a0a;        /* Main background */
+    --secondary-bg: #111111;      /* Secondary sections */
+    --accent: #FFD700;           /* Gold - Primary accent */
+    --accent-dark: #B8860B;      /* Dark gold - Hover states */
+    --text-primary: #ffffff;     /* Main text */
+    --text-secondary: #b0b0b0;   /* Secondary text */
+    --card-bg: #1a1a1a;         /* Card backgrounds */
+}
+🤝 Contributing
+We welcome contributions to enhance STRIKE! Here's how you can help:
 
-🧑‍💻 Contributors
-Developed by: [Your Name]
-Mentorship & Concept: Rohit Negi (Coder Army)
+Development
+Fork the repository
 
-📜 License
-This project is open source and available under the MIT License.
-You may use, modify, and distribute it freely with proper attribution.
+Create a feature branch (git checkout -b feature/AmazingFeature)
 
-🖼️ Preview
-💡 To preview locally: open index.html in your browser.
+Commit your changes (git commit -m 'Add some AmazingFeature')
 
-Example Screenshot (replace once deployed):
+Push to the branch (git push origin feature/AmazingFeature)
 
+Open a Pull Request
 
+Guidelines
+Follow existing code style and structure
 
-🌐 Live Demo (Optional)
-If deployed (e.g., on GitHub Pages or Netlify), include your live link here:
+Ensure responsiveness across all devices
 
-👉 View Live Project
+Maintain no-JavaScript philosophy
 
-🏁 Conclusion
-This project demonstrates that elegant, interactive, and responsive web experiences can be achieved using only HTML and CSS.
-It’s a clean, scalable, and easily customizable foundation for educational or promotional landing pages.
+Test on multiple browsers and devices
+
+Update documentation accordingly
+
+📄 License
+This project is developed for educational purposes as part of a hackathon submission. All rights reserved by Coder Army.
+
+Usage Restrictions:
+Educational and personal use allowed
+
+Commercial use requires permission
+
+Attribution to Coder Army required
+
+No redistribution without consent
+
+📞 Contact
+Coder Army
+Website: coderarmy.in
+
+YouTube: @CoderArmy9
+
+Twitter: @rohit_negi9
+
+LinkedIn: rohit-negi9
+
+GitHub: coderarmy-notes
+
+Project Maintainers
+Rohit Negi (Negi Da) - DSA & GenAI Expert
+
+Aditya Tandon - Generative AI & HLD Specialist
+
+<div align="center">
+Built with 💛 by Coder Army
+
+Empowering developers through quality education
+
+</div>
