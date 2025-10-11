@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GenAI Course | STRIKE</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="container nav-container">
+            <div style="color:rgba(255, 228, 26, 0.926); font-size: 24px; font-family: 'Segoe UI'; font-weight: 700; display: flex; justify-content: center; align-items:center;">
+                <a href="index.html" style="margin-top: 1px;">
+                    <img src="images/strike/strike-img.png" alt="STRIKE" class="logo" width="120px" height="48px">
+                </a>
+            </div>
+            
+            <input type="checkbox" id="mobile-menu-toggle" class="mobile-checkbox">
+            <label for="mobile-menu-toggle" class="menu-toggle" id="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </label>
+            
+            <ul class="nav-links">
+                <li><a href="index.html#home" class="nav-link">HOME</a></li>
+                <li><a href="index.html#about" class="nav-link">ABOUT</a></li>
+                <li><a href="index.html#courses" class="nav-link">COURSES</a></li>
+                <li><a href="index.html#mentors" class="nav-link">MENTORS</a></li>
+                <li><a href="index.html#contact" class="nav-link">CONTACT</a></li>
+                
+                <li class="mobile-close">
+                    <label for="mobile-menu-toggle" class="close-menu">
+                        <i class="fas fa-times"></i> Close
+                    </label>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Course Hero Section -->
+    <section class="course-detail-hero">
+        <div class="container">
+            <div class="course-hero-content">
+                <span class="course-badge">Cutting-Edge Technology</span>
+                <h1 class="course-detail-title">Generative AI Mastery</h1>
+                <p class="course-detail-subtitle">Dive into the world of Generative AI and learn to build intelligent applications that create content, solve problems, and transform industries.</p>
+                <div style="display: flex; justify-content: center; align-items: center; gap: 12px;">
+                    <div class="course-price-tag">Get @ ₹1,899/-</div>
+                    <div class="course-price-tag" style="text-decoration: line-through; font-size: 14px;">₹2,499/-</div>
+                </div>
+                <div class="course-cta-buttons">
+                    <a href="index.html#contact" class="btn">Enroll Now</a>
+                    <a href="index.html#courses" class="btn back-btn">Back to Courses</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Course Overview -->
+    <section class="course-content-section">
+        <div class="container">
+            <h2 class="section-title">Course Overview</h2>
+            <div class="overview-grid">
+                <div class="overview-card">
+                    <div class="overview-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>Hands-on Projects</h3>
+                    <p>Build real-world AI applications from scratch</p>
+                </div>
+                <div class="overview-card">
+                    <div class="overview-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>LLM Implementation</h3>
+                    <p>Work with state-of-the-art language models</p>
+                </div>
+                <div class="overview-card">
+                    <div class="overview-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>Deployment Ready</h3>
+                    <p>Learn to deploy AI models in production</p>
+                </div>
+            </div>
+            
+            <div class="course-description">
+                <h3>What You'll Achieve</h3>
+                <p>This Generative AI course takes you from fundamental concepts to advanced implementation. You'll learn to build, fine-tune, and deploy AI models that can generate text, images, and solve complex problems.</p>
+                
+                <h3>Who This Course Is For</h3>
+                <ul class="features">
+                    <li>Developers wanting to add AI skills to their toolkit</li>
+                    <li>Data scientists looking to specialize in generative models</li>
+                    <li>Students interested in cutting-edge AI technology</li>
+                    <li>Entrepreneurs building AI-powered products</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Curriculum -->
+    <section class="course-content-section">
+        <div class="container">
+            <h2 class="section-title">Course Curriculum</h2>
+            <div class="curriculum-container">
+                <!-- Module 1 -->
+                <div class="module" id="genai-module1">
+                    <a href="#genai-module1" class="module-header">
+                        <h4>Module 1: AI Fundamentals</h4>
+                        <span class="module-duration">2 Weeks</span>
+                    </a>
+                    <div class="module-content">
+                        <ul class="topics-list">
+                            <li>Introduction to Machine Learning & AI</li>
+                            <li>Neural Networks Deep Dive</li>
+                            <li>Transformers Architecture</li>
+                            <li>Python for AI Development</li>
+                            <li>Setting up AI Development Environment</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Module 2 -->
+                <div class="module" id="genai-module2">
+                    <a href="#genai-module2" class="module-header">
+                        <h4>Module 2: Language Models</h4>
+                        <span class="module-duration">3 Weeks</span>
+                    </a>
+                    <div class="module-content">
+                        <ul class="topics-list">
+                            <li>Introduction to Large Language Models</li>
+                            <li>Prompt Engineering Techniques</li>
+                            <li>Fine-tuning LLMs for Specific Tasks</li>
+                            <li>Building Chatbots and Assistants</li>
+                            <li>Ethical AI and Responsible Deployment</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Module 3 -->
+                <div class="module" id="genai-module3">
+                    <a href="#genai-module3" class="module-header">
+                        <h4>Module 3: Computer Vision & Image Generation</h4>
+                        <span class="module-duration">3 Weeks</span>
+                    </a>
+                    <div class="module-content">
+                        <ul class="topics-list">
+                            <li>GANs (Generative Adversarial Networks)</li>
+                            <li>Diffusion Models Implementation</li>
+                            <li>Stable Diffusion and DALL-E</li>
+                            <li>Image-to-Image Translation</li>
+                            <li>Style Transfer Techniques</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Module 4 -->
+                <div class="module" id="genai-module4">
+                    <a href="#genai-module4" class="module-header">
+                        <h4>Module 4: Advanced Applications & Deployment</h4>
+                        <span class="module-duration">2 Weeks</span>
+                    </a>
+                    <div class="module-content">
+                        <ul class="topics-list">
+                            <li>Multimodal AI Systems</li>
+                            <li>AI Agent Development</li>
+                            <li>Model Optimization and Quantization</li>
+                            <li>Cloud Deployment Strategies</li>
+                            <li>Building AI-powered Applications</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section class="course-content-section">
+        <div class="container">
+            <h2 class="section-title">What's Included</h2>
+            <div class="features-grid">
+                <div class="feature-item">
+                    <i class="fas fa-laptop-code"></i>
+                    <h4>80+ Hours Live Classes</h4>
+                    <p>Hands-on coding sessions with experts</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-project-diagram"></i>
+                    <h4>15+ AI Projects</h4>
+                    <p>Real-world generative AI applications</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-database"></i>
+                    <h4>Datasets & Resources</h4>
+                    <p>Curated datasets and learning materials</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-users"></i>
+                    <h4>Community Access</h4>
+                    <p>Join our AI developers community</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-cloud-upload-alt"></i>
+                    <h4>Deployment Guidance</h4>
+                    <p>Learn to deploy models to production</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-certificate"></i>
+                    <h4>AI Specialization Certificate</h4>
+                    <p>Showcase your generative AI expertise</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Instructors -->
+    <section class="course-content-section">
+        <div class="container">
+            <h2 class="section-title">Meet Your Instructors</h2>
+            <div class="instructors-grid">
+                <div class="instructor-card">
+                    <div class="instructor-image">
+                        <img src="images/tandon-ji/1.jpg" alt="Aditya Tandon">
+                    </div>
+                    <h3>Aditya Tandon</h3>
+                    <p class="mentor-role">Generative AI & HLD Specialist</p>
+                    <p>PhD in Machine Learning with 20+ published research papers. HLD consultant for Fortune 500 companies.</p>
+                </div>
+                <div class="instructor-card">
+                    <div class="instructor-image">
+                        <img src="images/Negi-Da/3.jpg" alt="Negi Da">
+                    </div>
+                    <h3>Negi Da</h3>
+                    <p class="mentor-role">DSA & GenAI Expert</p>
+                    <p>8+ years experience in AI implementation. Specialized in making complex AI concepts accessible.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing -->
+    <section class="course-content-section">
+        <div class="container">
+            <h2 class="section-title">Choose Your Plan</h2>
+            <div class="pricing-cards">
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Self-Paced</h3>
+                        <p>Learn at your own pace</p>
+                    </div>
+                    <div class="price">₹1,499</div>
+                    <ul class="pricing-features">
+                        <li>Recorded Video Lectures</li>
+                        <li>Course Materials & Code</li>
+                        <li>Basic Project Templates</li>
+                        <li>Email Support</li>
+                        <li>Certificate of Completion</li>
+                    </ul>
+                    <a href="index.html#contact" class="btn">Enroll Now</a>
+                </div>
+
+                <div class="pricing-card featured">
+                    <div class="pricing-header">
+                        <h3>Live Mentorship</h3>
+                        <p>Most Popular</p>
+                    </div>
+                    <div class="price">₹1,999</div>
+                    <ul class="pricing-features">
+                        <li>Everything in Self-Paced</li>
+                        <li>Live Interactive Classes</li>
+                        <li>1:1 AI Project Guidance</li>
+                        <li>15+ Hands-on Projects</li>
+                        <li>Community Access</li>
+                        <li>Deployment Support</li>
+                    </ul>
+                    <a href="index.html#contact" class="btn">Enroll Now</a>
+                </div>
+
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>AI Pro</h3>
+                        <p>Complete AI transformation</p>
+                    </div>
+                    <div class="price">₹3,499</div>
+                    <ul class="pricing-features">
+                        <li>Everything in Live Mentorship</li>
+                        <li>Advanced Project Portfolio</li>
+                        <li>Industry Dataset Access</li>
+                        <li>Career Counseling</li>
+                        <li>Research Paper Guidance</li>
+                        <li>Lifetime Course Updates</li>
+                    </ul>
+                    <a href="index.html#contact" class="btn">Enroll Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <div class="footer-logo">STRIKE - 
+                        <a href="https://coderarmy.in/?section=home#home" style="text-decoration: none; color: #ffd700;">Coder Army&#174;</a></div>
+                    <p>STRIKE is dedicated to providing high-quality, live coding education that combines DSA and Generative AI knowledge with deep learning and first-thought principle approach.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html#home">Home</a></li>
+                        <li><a href="index.html#about">About</a></li>
+                        <li><a href="index.html#courses">Courses</a></li>
+                        <li><a href="index.html#mentors">Mentors</a></li>
+                        <li><a href="index.html#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-social">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="https://x.com/rohit_negi9"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/rohit-negi9/"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/coderarmy-notes"><i class="fab fa-github"></i></a>
+                        <a href="https://www.youtube.com/@CoderArmy9"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                &copy; 2025 STRIKE. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top -->
+    <a href="#" class="scroll-to-top" id="scrollToTop">
+        <i class="fas fa-chevron-up"></i>
+    </a>
+
+</body>
+</html>

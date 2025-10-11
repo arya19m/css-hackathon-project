@@ -31,9 +31,10 @@
             <ul class="nav-links">
                 <li><a href="#home" class="nav-link">HOME</a></li>
                 <li><a href="#about" class="nav-link">ABOUT</a></li>
-                <li><a href="#courses" class="nav-link">COURSE</a></li>
+                <li><a href="#courses" class="nav-link">COURSES</a></li>
                 <li><a href="#mentors" class="nav-link">MENTORS</a></li>
                 <li><a href="#contact" class="nav-link">CONTACT</a></li>
+                <li><a href="login.html" style="color: rgb(255, 247, 0); text-decoration: underline;">Login</a></li>
                 
                 <!-- Mobile Menu Close Button -->
                 <li class="mobile-close">
@@ -46,7 +47,7 @@
     </nav>
 
     <!-- ========== HERO SECTION ========== -->
-    <section class="hero" id="home">
+    <section class="hero" id="home">    
         <!-- Video Background Container -->
         <div class="video-background">
             <video autoplay muted loop playsinline id="heroVideo">
@@ -97,231 +98,77 @@
     </section>
 
     <!-- ========== COURSES SECTION ========== -->
-    <section class="courses" id="courses">
-        <div class="container">
-            <h2>STRIKE Includes</h2>
-            
-            <!-- Main Courses Grid -->
-            <div class="courses-grid">
-                <!-- Course 1: DSA -->
-                <div class="course-card">
-                    <div class="course-image">
-                        <div class="image-overlay"></div>
-                        <img src="images/strike/courses/dsa.png" alt="DSA Course">
-                    </div>
-                    <div class="course-content">
-                        <h3>Data Structures & Algorithms</h3>
-                        <p>Master the fundamental building blocks of computer science with our comprehensive DSA course.</p>
-                        <ul class="features">
-                            <li>Live interactive classes</li>
-                            <li>500+ practice problems</li>
-                            <li>Personalized mentorship</li>
-                            <li>Interview preparation</li>
-                            <li>Real-world project integration</li>
-                        </ul>
-                        <a href="#contact" class="btn course-btn">Enroll Now @ ₹2499</a>
-                    </div>
+<section class="courses" id="courses">
+    <div class="container">
+        <h2>STRIKE Includes</h2>
+        
+        <!-- Main Courses Grid -->
+        <div class="courses-grid">
+            <!-- Course 1: DSA -->
+            <div class="course-card">
+                <div class="course-image">
+                    <div class="image-overlay"></div>
+                    <img src="images/strike/courses/dsa.png" alt="DSA Course">
                 </div>
-                
-                <!-- Course 2: Generative AI -->
-                <div class="course-card">
-                    <div class="course-image">
-                        <div class="image-overlay"></div>
-                        <img src="images/strike/courses/genai.jpg" alt="GenAI Course">
-                    </div>
-                    <div class="course-content">
-                        <h3>Generative AI Mastery</h3>
-                        <p>Dive into the world of Generative AI and learn to build intelligent applications that create content.</p>
-                        <ul class="features">
-                            <li>Hands-on AI projects</li>
-                            <li>LLM implementation</li>
-                            <li>Image generation techniques</li>
-                            <li>Model fine-tuning</li>
-                            <li>Deployment strategies</li>
-                        </ul>
-                        <a href="#contact" class="btn course-btn">Enroll Now @ ₹1999</a>
-                    </div>
-                </div>
-                
-                <!-- Course 3: Combo Package -->
-                <div class="course-card">
-                    <div class="course-image">
-                        <div class="image-overlay"></div>
-                        <img src="images/strike/courses/bundle.jpg" alt="Combo Course">
-                    </div>
-                    <div class="course-content">
-                        <h3>DSA + GenAI Combo</h3>
-                        <p>The complete package: Master DSA fundamentals while building advanced Generative AI applications.</p>
-                        <ul class="features">
-                            <li>Both courses at discounted price</li>
-                            <li>Integrated learning path</li>
-                            <li>Career guidance sessions</li>
-                            <li>Portfolio development</li>
-                            <li>Job placement assistance</li>
-                        </ul>
-                        <a href="#contact" class="btn course-btn">Enroll Now @ ₹3599</a>
-                    </div>
+                <div class="course-content">
+                    <h3>Data Structures & Algorithms</h3>
+                    <p>Master the fundamental building blocks of computer science with our comprehensive DSA course.</p>
+                    <ul class="features">
+                        <li>Live interactive classes</li>
+                        <li>500+ practice problems</li>
+                        <li>Personalized mentorship</li>
+                        <li>Interview preparation</li>
+                        <li>Real-world project integration</li>
+                    </ul>
+                    <a href="dsa-course.html" class="btn course-btn">View Course Details</a>
                 </div>
             </div>
-
-            <!-- ========== OTHER COURSES SECTION ========== -->
-            <div class="other-courses-section">
-                <h3 class="other-courses-title">Other Courses Offered</h3>
-                <div class="other-courses-grid">
-                    <!-- Course 1: NEXUS - FSD & DSA -->
-                    <div class="other-course-card">
-                        <div class="course-icon">
-                            <i class="fas fa-code"></i>
-                        </div>
-                        <div class="course-details">
-                            <h4>NEXUS - FSD & DSA</h4>
-                            <p>Build modern web applications with MERN stack</p>
-                            <div class="course-features">
-                                <span class="feature-tag">FSD</span>
-                                <span class="feature-tag">DSA</span>
-                                <span class="feature-tag">Projects</span>
-                            </div>
-                            <div class="course-price">
-                                <span class="price">₹3599</span>
-                                <span class="duration">6 Months</span>
-                            </div>
-                        </div>
-                        <!-- Hover Content (Reveals on hover) -->
-                        <div class="course-hover-content">
-                            <h4>What You'll Learn</h4>
-                            <ul>
-                                <li>Frontend with React & Redux</li>
-                                <li>Backend with Node.js & Express</li>
-                                <li>Database design with MongoDB</li>
-                                <li>Deployment & DevOps</li>
-                            </ul>
-                            <a href="#contact" class="btn-enroll">Enroll Now</a>
-                        </div>
-                    </div>
-
-                    <!-- Course 2: NEXUS+ Course -->
-                    <div class="other-course-card">
-                        <div class="course-icon">
-                            <i class="fas fa-code"></i>
-                        </div>
-                        <div class="course-details">
-                            <h4>NEXUS+ Course</h4>
-                            <p>Full Stack, DSA, Blockchain</p>
-                            <div class="course-features">
-                                <span class="feature-tag">FSD</span>
-                                <span class="feature-tag">DSA</span>
-                                <span class="feature-tag">Blockchain</span>
-                            </div>
-                            <div class="course-price">
-                                <span class="price">₹4799</span>
-                                <span class="duration">8 Months</span>
-                            </div>
-                        </div>
-                        <div class="course-hover-content">
-                            <h4>What You'll Learn</h4>
-                            <ul>
-                                <li>State management</li>
-                                <li>Frontend with React & Redux</li>
-                                <li>Database design with MongoDB</li>
-                                <li>Backend integration</li>
-                            </ul>
-                            <a href="#contact" class="btn-enroll">Enroll Now</a>
-                        </div>
-                    </div>
-
-                    <!-- Course 3: Defense Course (FREE) -->
-                    <div class="other-course-card">
-                        <div class="course-icon">
-                            <i class="fas fa-chevron-up"></i>
-                        </div>
-                        <div class="course-details">
-                            <h4>Defense Course (FREE)</h4>
-                            <p>MERN Stack Development</p>
-                            <div class="course-features">
-                                <span class="feature-tag">Frontend</span>
-                                <span class="feature-tag">Backend</span>
-                                <span class="feature-tag">Database</span>
-                            </div>
-                            <div class="course-price">
-                                <span class="price">₹0</span>
-                                <span class="duration">12 Months</span>
-                            </div>
-                        </div>
-                        <div class="course-hover-content">
-                            <h4>What You'll Learn</h4>
-                            <ul>
-                                <li>Frontend- HTML, CSS, JS, React</li>
-                                <li>Backend- Node.js, Express</li>
-                                <li>Containerization with Docker</li>
-                                <li>Database & Deployment</li>
-                            </ul>
-                            <a href="#contact" class="btn-enroll">Enroll Now</a>
-                        </div>
-                    </div>
-
-                    <!-- Course 4: Introduction to GenAI (FREE) -->
-                    <div class="other-course-card">
-                        <div class="course-icon">
-                            <i class="fas fa-chart-line"></i>
-                        </div>
-                        <div class="course-details">
-                            <h4>Introduction to GenAI (FREE)</h4>
-                            <p>Machine Learning and Generative AI</p>
-                            <div class="course-features">
-                                <span class="feature-tag">GenAI</span>
-                                <span class="feature-tag">JavaScript</span>
-                                <span class="feature-tag">ML Basics</span>
-                            </div>
-                            <div class="course-price">
-                                <span class="price">₹0</span>
-                                <span class="duration">4 Weeks</span>
-                            </div>
-                        </div>
-                        <div class="course-hover-content">
-                            <h4>What You'll Learn</h4>
-                            <ul>
-                                <li>GenAI Basics</li>
-                                <li>Data visualization</li>
-                                <li>Statistical modeling</li>
-                                <li>Machine learning algorithms</li>
-                            </ul>
-                            <a href="#contact" class="btn-enroll">Enroll Now</a>
-                        </div>
-                    </div>
-
-                    <!-- Course 5: Cyber Security -->
-                    <div class="other-course-card">
-                        <div class="course-icon">
-                            <i class="fas fa-shield-alt"></i>
-                        </div>
-                        <div class="course-details">
-                            <h4>Cyber Security Essentials</h4>
-                            <p>Learn ethical hacking and security fundamentals</p>
-                            <div class="course-features">
-                                <span class="feature-tag">Ethical Hacking</span>
-                                <span class="feature-tag">Network Security</span>
-                                <span class="feature-tag">Cryptography</span>
-                            </div>
-                            <div class="course-price">
-                                <span class="price">₹1999</span>
-                                <span class="duration">8 Weeks</span>
-                            </div>
-                        </div>
-                        <div class="course-hover-content">
-                            <h4>What You'll Learn</h4>
-                            <ul>
-                                <li>Network security principles</li>
-                                <li>Vulnerability assessment</li>
-                                <li>Cryptography basics</li>
-                                <li>Security best practices</li>
-                            </ul>
-                            <a href="#contact" class="btn-enroll">Enroll Now</a>
-                        </div>
-                    </div>
+            
+            <!-- Course 2: Generative AI -->
+            <div class="course-card">
+                <div class="course-image">
+                    <div class="image-overlay"></div>
+                    <img src="images/strike/courses/genai.jpg" alt="GenAI Course">
+                </div>
+                <div class="course-content">
+                    <h3>Generative AI Mastery</h3>
+                    <p>Dive into the world of Generative AI and learn to build intelligent applications that create content.</p>
+                    <ul class="features">
+                        <li>Hands-on AI projects</li>
+                        <li>LLM implementation</li>
+                        <li>Image generation techniques</li>
+                        <li>Model fine-tuning</li>
+                        <li>Deployment strategies</li>
+                    </ul>
+                    <a href="genai-course.html" class="btn course-btn">View Course Details</a>
+                </div>
+            </div>
+            
+            <!-- Course 3: Combo Package -->
+            <div class="course-card">
+                <div class="course-image">
+                    <div class="image-overlay"></div>
+                    <img src="images/strike/courses/bundle.jpg" alt="Combo Course">
+                </div>
+                <div class="course-content">
+                    <h3>DSA + GenAI Combo</h3>
+                    <p>The complete package: Master DSA fundamentals while building advanced Generative AI applications.</p>
+                    <ul class="features">
+                        <li>Both courses at discounted price</li>
+                        <li>Integrated learning path</li>
+                        <li>Career guidance sessions</li>
+                        <li>Portfolio development</li>
+                        <li>Job placement assistance</li>
+                    </ul>
+                    <a href="combo-course.html" class="btn course-btn">View Course Details</a>
                 </div>
             </div>
         </div>
-    </section>
+
+        <!-- ========== OTHER COURSES SECTION ========== -->
+        <!-- Keep your existing other courses section as it is -->
+    </div>
+</section>
 
     <!-- ========== MENTORS SECTION ========== -->
     <section class="mentors" id="mentors">
@@ -351,9 +198,9 @@
                                 </ul>
                             </div>
                             <div class="social-links">
-                                <a href="#"><i class="fab fa-linkedin"></i></a>
-                                <a href="#"><i class="fab fa-twitter"></i></a>
-                                <a href="#"><i class="fab fa-github"></i></a>
+                                <a href="https://www.linkedin.com/in/rohit-negi9/"><i class="fab fa-linkedin"></i></a>
+                                <a href="https://x.com/rohit_negi9"><i class="fab fa-twitter"></i></a>
+                                <a href="https://github.com/coderarmy-notes"><i class="fab fa-github"></i></a>
                             </div>
                             <a href="#contact" class="btn mentor-btn">Learn Now</a>
                         </div>
@@ -381,9 +228,9 @@
                                 </ul>
                             </div>
                             <div class="social-links">
-                                <a href="#"><i class="fab fa-linkedin"></i></a>
-                                <a href="#"><i class="fab fa-twitter"></i></a>
-                                <a href="#"><i class="fab fa-github"></i></a>
+                                <a href="https://www.linkedin.com/in/rohit-negi9/"><i class="fab fa-linkedin"></i></a>
+                                <a href="https://x.com/rohit_negi9"><i class="fab fa-twitter"></i></a>
+                                <a href="https://github.com/coderarmy-notes"><i class="fab fa-github"></i></a>
                             </div>
                             <a href="#contact" class="btn mentor-btn">Learn Now</a>
                         </div>
@@ -420,10 +267,10 @@
                     
                     <!-- Social Media Links -->
                     <div class="social-icons">
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-linkedin"></i></a>
-                        <a href="#"><i class="fab fa-github"></i></a>
-                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="https://x.com/rohit_negi9"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/rohit-negi9/"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/coderarmy-notes"><i class="fab fa-github"></i></a>
+                        <a href="https://www.youtube.com/@CoderArmy9"><i class="fab fa-youtube"></i></a>
                     </div>
                 </div>
                 
